@@ -27,10 +27,10 @@ Once open, highlight and copy the code found in the links below
 Finally, paste in the code to each class and run the program.
 ```
 Cellphone.java (main) link: https://github.com/Tanner-Mindrum/Model-Cell-Phone/blob/master/Cellphone.java
-Phonebook.java link: https://github.com/Tanner-Mindrum/Model-Cell-Phone/blob/master/Phonebook.java
-Contact.java link: https://github.com/Tanner-Mindrum/Model-Cell-Phone/blob/master/Contact.java
-CallLog.java link: https://github.com/Tanner-Mindrum/Model-Cell-Phone/blob/master/CallLog.java
-CallInfo.java link: https://github.com/Tanner-Mindrum/Model-Cell-Phone/blob/master/CallInfo.java
+Phonebook.java link: https://github.com/Tanner-Mindrum/Model-Cell-Phone/blob/master/Phonebook.java        
+Contact.java link: https://github.com/Tanner-Mindrum/Model-Cell-Phone/blob/master/Contact.java                    
+CallLog.java link: https://github.com/Tanner-Mindrum/Model-Cell-Phone/blob/master/CallLog.java                 
+CallInfo.java link: https://github.com/Tanner-Mindrum/Model-Cell-Phone/blob/master/CallInfo.java                   
 FavoriteContactFrame.java link: https://github.com/Tanner-Mindrum/Model-Cell-Phone/blob/master/FavoriteContactFrame.java
 #### Method 2
 This method will go over cloning the repository to your local machine. In this example, I will be cloning the repository to the desktop; however, you can select whichever directory you'd like when cloning the repository to your local machine. Input these commands using the Git Bash program.
