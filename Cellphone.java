@@ -346,27 +346,37 @@ public class Cellphone {
                                     int zWidth = 1250; //Same as fWidth, just changed name because I reconfigured with my text
 
                                     //Display image of contact
-                                    FavoriteContactFrame contact1 = new FavoriteContactFrame("C:\\Users\\tanne\\Pictures\\businesswoman1.png", zWidth, fHeight, displayContact.getName(), displayContact.getPhoneNum(), displayContact.getEmail(), displayContact.getNotes());
-                                    FavoriteContactFrame contact2 = new FavoriteContactFrame("C:\\Users\\tanne\\Pictures\\businessman2.png", zWidth, fHeight, displayContact.getName(), displayContact.getPhoneNum(), displayContact.getEmail(), displayContact.getNotes());
-                                    FavoriteContactFrame contact3 = new FavoriteContactFrame("C:\\Users\\tanne\\Pictures\\businessman3.png", zWidth, fHeight, displayContact.getName(), displayContact.getPhoneNum(), displayContact.getEmail(), displayContact.getNotes());
-                                    FavoriteContactFrame contact4 = new FavoriteContactFrame("C:\\Users\\tanne\\Pictures\\businesswoman4.png", zWidth, fHeight, displayContact.getName(), displayContact.getPhoneNum(), displayContact.getEmail(), displayContact.getNotes());
-                                    FavoriteContactFrame contact5 = new FavoriteContactFrame("C:\\Users\\tanne\\Pictures\\businesswoman5.png", zWidth, fHeight, displayContact.getName(), displayContact.getPhoneNum(), displayContact.getEmail(), displayContact.getNotes());
-
-                                    if (presetNum == 1){
-                                        contact1.displayContactFrame();
-                                    }
-                                    else if (presetNum == 2){
-                                        contact2.displayContactFrame();
-                                    }
-                                    else if (presetNum == 3){
-                                        contact3.displayContactFrame();
-                                    }
-                                    else if (presetNum == 4){
-                                        contact4.displayContactFrame();
-                                    }
-                                    else if (presetNum == 5){
-                                        contact5.displayContactFrame();
-                                    }
+                                    
+                                    /*
+                                     * FOR USERS WHO OBTAINED CODE THROUGH GITHUB:
+                                     * Uncomment lines 353-376 to use JFrame.
+                                     * JFrame is used to display an image when you display a favorite contact.
+                                     * You must change the directory from my directory, to somewhere on your local machine.
+                                     * Supply your own images, then the display function will work on your local machine
+                                     */
+                                    
+//                                    FavoriteContactFrame contact1 = new FavoriteContactFrame("C:\\Users\\tanne\\Pictures\\businesswoman1.png", zWidth, fHeight, displayContact.getName(), displayContact.getPhoneNum(), displayContact.getEmail(), displayContact.getNotes());
+//                                    FavoriteContactFrame contact2 = new FavoriteContactFrame("C:\\Users\\tanne\\Pictures\\businessman2.png", zWidth, fHeight, displayContact.getName(), displayContact.getPhoneNum(), displayContact.getEmail(), displayContact.getNotes());
+//                                    FavoriteContactFrame contact3 = new FavoriteContactFrame("C:\\Users\\tanne\\Pictures\\businessman3.png", zWidth, fHeight, displayContact.getName(), displayContact.getPhoneNum(), displayContact.getEmail(), displayContact.getNotes());
+//                                    FavoriteContactFrame contact4 = new FavoriteContactFrame("C:\\Users\\tanne\\Pictures\\businesswoman4.png", zWidth, fHeight, displayContact.getName(), displayContact.getPhoneNum(), displayContact.getEmail(), displayContact.getNotes());
+//                                    FavoriteContactFrame contact5 = new FavoriteContactFrame("C:\\Users\\tanne\\Pictures\\businesswoman5.png", zWidth, fHeight, displayContact.getName(), displayContact.getPhoneNum(), displayContact.getEmail(), displayContact.getNotes());
+//
+//                                    if (presetNum == 1){
+//                                        contact1.displayContactFrame();
+//                                    }
+//                                    else if (presetNum == 2){
+//                                        contact2.displayContactFrame();
+//                                    }
+//                                    else if (presetNum == 3){
+//                                        contact3.displayContactFrame();
+//                                    }
+//                                    else if (presetNum == 4){
+//                                        contact4.displayContactFrame();
+//                                    }
+//                                    else if (presetNum == 5){
+//                                        contact5.displayContactFrame();
+//                                    }
+                                    
                                 }
                                 else{
                                     System.out.println("Favorite does not exist.");
