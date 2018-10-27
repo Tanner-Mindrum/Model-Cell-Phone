@@ -16,7 +16,7 @@ This method will go through the setup process using the copy and paste method.
 ```
 Create a new Java project. Within this Java project, create a package called "edu.project3".
 
-In this package, create 5 java classes and title them, "Cellphone", "Phonebook", "Contact", "CallLog", "CallInfo", and "FavoriteContactFrame".
+In this package, create 6 java classes and title them, "Cellphone", "Phonebook", "Contact", "CallLog", "CallInfo", and "FavoriteContactFrame".
 ```
 This creates blank Java classes which will later be used to run the program after copy and pasting the code.
 ```
