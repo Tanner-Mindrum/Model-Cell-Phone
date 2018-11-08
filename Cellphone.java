@@ -349,7 +349,7 @@ public class Cellphone {
                                     
                                     /*
                                      * FOR USERS WHO OBTAINED CODE THROUGH GITHUB:
-                                     * Uncomment lines 353-376 to use JFrame.
+                                     * Uncomment lines 358-378 to use JFrame.
                                      * JFrame is used to display an image when you display a favorite contact.
                                      * You must change the directory from my directory, to somewhere on your local machine.
                                      * Supply your own images, then the display function will work on your local machine
